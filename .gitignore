@@ -1,0 +1,16 @@
+# 运行时数据（个人配置、历史、封面缓存、输出）
+data/
+output/
+
+# 构建产物
+build/
+dist/
+package/
+.venv*/
+__pycache__/
+*.pyc
+.taste-skill/
+.agent/
+
+# ffmpeg 二进制（用 tools/fetch-ffmpeg.ps1 下载）
+tools/ffmpeg/

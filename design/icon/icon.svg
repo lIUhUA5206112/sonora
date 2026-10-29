@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="拾音 Sonora">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232120"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc45c"/>
+      <stop offset="1" stop-color="#d9821b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f0b23c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f0b23c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#tile)"/>
+  <circle cx="512" cy="512" r="360" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.05">
+    <circle cx="512" cy="512" r="330"/>
+    <circle cx="512" cy="512" r="280"/>
+    <circle cx="512" cy="512" r="229"/>
+  </g>
+  <g fill="url(#amber)">
+    <rect x="327" y="437" width="46" height="150" rx="23"/>
+    <rect x="408" y="380" width="46" height="264" rx="23"/>
+    <rect x="489" y="317" width="46" height="390" rx="23"/>
+    <rect x="570" y="387" width="46" height="250" rx="23"/>
+    <rect x="651" y="435" width="46" height="154" rx="23"/>
+  </g>
+  <rect x="3" y="3" width="1018" height="1018" rx="226" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+</svg>
